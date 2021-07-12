@@ -1,9 +1,9 @@
 const degrees = [
     {
       school: 'Caldwell University',
-      degree: 'B.S. Computer Science, Mathematics',
-      link: 'https://stanford.edu',
-      year: 2022,
+      degree: 'B.S. in Computer Science & B.A in Mathematics',
+      link: 'https://caldwell.edu',
+      year: 'Class of 2022',
     }
   ];
   

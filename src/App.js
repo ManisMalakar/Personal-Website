@@ -13,6 +13,7 @@ const Contact = lazy(() => import('./Pages/Contact'));
 const Index = lazy(() => import('./Pages/Index'));
 const NotFound = lazy(() => import('./Pages/PageNotFound'));
 const Projects = lazy(() => import('./Pages/Projects'));
+const Research = lazy(() => import('./Pages/Research'));
 const Resume = lazy(() => import('./Pages/Resume'));
 
 const App = () => (
@@ -22,6 +23,7 @@ const App = () => (
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
+        <Route path="/research" component={Research} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
         <Route component={NotFound} status={404} />

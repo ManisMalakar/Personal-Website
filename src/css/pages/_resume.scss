@@ -25,6 +25,15 @@
 			margin-bottom: 2em;
 		}
 	}
+
+	.awards {
+		padding-top: 1.6em;
+
+		.title {
+			text-align: center;
+		}
+	}
+
 	.experience {
 		.title {
 			text-align: center;
@@ -88,10 +97,13 @@
 	}
 
 	.degree {
+		font-family: "Raleway", Helvetica, sans-serif;
 		margin-bottom: .1em;
 		text-transform: none;
-		letter-spacing: 0.16em;
-		font-size: .8em;
+		letter-spacing: 0.25em;
+		font-size: .7em;
+		font-weight: bold;
+		text-transform: uppercase;
 	}
 
 	.school {
@@ -106,6 +118,21 @@
 }
 .courses .course-name {
 	display: inline;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  margin-top: -1em;
+  text-transform: uppercase;
+}
+
+.awards .awards-name {
+	display: inline;
+}
+.awards .awards-year {
+	display: inline;
+	text-align: right;
 	font-family: "Raleway", Helvetica, sans-serif;
 	font-size: 0.7em;
   font-weight: 400;
