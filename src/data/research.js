@@ -1,4 +1,15 @@
 const research = [
+  {
+    topic: 'Brainwave Based Miniature Car Using Arduino and Convolutional Neural Network',
+    advisor:'Dr. Arnold Toffler',
+    link: 'https://www.youtube.com/watch?app=desktop&v=X9n6Eow5vHY&feature=youtu.be&ab_channel=ManisMalakar',
+    image: '/images/research/Vision.png',
+    daterange: 'December 2021-Present',
+    points: [
+      'Tendered a miniature car that runs through the brain signals using an EEG.',
+      'Proposed a system that works by training a neural network model on the signals transmitted by the EEG and then transmits it into an Arduino for the car maneuver',
+    ],
+  },
     {
       topic: 'Vision 1.0 – An alternative aid for visually impaired individuals 		',
       advisor:'Agnes Berki',

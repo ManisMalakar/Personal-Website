@@ -1,9 +1,18 @@
 const positions = [
   {
+    company: 'Caldwell University - Institutional Research and Assessment',
+    position: 'Data and Design Research Intern',
+    link: 'https://www.caldwell.edu/',
+    daterange: 'August 2021 - December 2021',
+    points: [
+      'Performed extensive research, data reconciliation, data summarization, and scheme creation to capture post-graduation data',
+      'Supported efforts to analyze survey results and other information for university leaders to utilize in grant proposals and accreditation reports',
+    ],
+  },{
     company: 'Vandra JMS',
     position: 'Full Stack Developer Intern',
     link: 'https://www.vandra.space/',
-    daterange: 'June 2021 - Present',
+    daterange: 'June 2021 - July 2021',
     points: [
       'Help for the development for Chrome extension integrated with application workflows of LinkedIn and Glassdoor to help you manage your application information on the go! (https://rb.gy/pvyxzu) ',
       'Developed a web application that supports interactive kanban boards for applications and communications, extensive database of recruiters, cold-email generator and resume and cover letter builders.',

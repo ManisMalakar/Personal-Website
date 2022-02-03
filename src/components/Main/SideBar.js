@@ -14,25 +14,20 @@ const SideBar = () => (
       <header>
         <h2>Manish Malakar</h2>
         <p><a href="mailto:mani.malakar12@gmail.com">mani.malakar12@gmail.com</a></p>
+        <ContactIcons />
       </header>
     </section>
 
-    <section className="blurb">
-      <h2>About</h2>
-      <p>Namaste, I&apos;m Manish.
-          I am an international student at 
-          <a href="https://caldwell.edu/"> Caldwell University</a> who is aspiring to be a full-stack software developer and
-          a researcher in the field of machine learning and robotics.
-      </p>
+    {/* <section className="blurb">
+
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
-    </section>
+    </section> */}
 
     <section id="footer">
-      <ContactIcons />
       <p className="copyright">&copy; Manish Malakar <Link to="/">manismalakar.com</Link>.</p>
     </section>
   </section>
